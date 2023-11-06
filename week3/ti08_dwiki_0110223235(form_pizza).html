@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Pizza</title>
+</head>
+<body>
+    <h1>DK Dark Store | Pizza-sekarepmu!</h1>
+    <p>Pizza kami diolah dengan dibakar melalui kayu bakar, tersedia untuk diantar. Buat pizza khusus Anda dan kami akan mengirimkannya dalam waktu satu jam.</p>
+
+    <form action="pizzashasil_ti08_dwiki_0110223235.html" method="POST">
+
+        <fieldset>
+            <legend>Informasimu</legend>
+            <label for="nama">Nama:</label>
+            <input type="text" name="nama">
+            <br>
+            <br>
+            <label for="alamat">Alamat:</label>
+            <input type="text" name="alamat">
+            <br>
+            <br>
+            <label for="telepon">Nomor Telepon:</label>
+            <input type="tel" name="telepon">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email">
+            <br>
+            <br>
+            <label for="instruksi">Instruksi Pengantaran:</label>
+            <br>
+            <textarea name="instruksi" id="instruksi" cols="50" rows="6" placeholder="No more than 400 characters long" maxlength="400"></textarea>
+        </fieldset>
+
+    <h2>Desain pizza impianmu:</h2>
+    <p>Spesifikasi pizza</p>
+
+    <fieldset>
+        <legend>Lapisan (Pilih salah satu):</legend>
+        <input type="radio" name="lapisan" value="classicwhite">
+        <label for="crust">Classic white</label>
+        <br>
+        <input type="radio" name="lapisan" value="multigrain">
+        <label for="crust">Multigrain</label>
+        <br>
+        <input type="radio" name="lapisan" value="cheese-stuffed">
+        <label for="crust">Cheese-stuffed Crust</label>
+        <br>
+        <input type="radio" name="lapisan" value="gluten-free">
+        <label for="crust">Gluten-free</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Toping (Pilih beberapa toping)</legend>
+        <input type="checkbox" name="toping" value="redsauce" checked>
+        <label for="toppings">Red Sauce</label>
+        <br>
+        <input type="checkbox" name="toping" value="whitesauce">
+        <label for="toppings">White Sauce</label>
+        <br>
+        <input type="checkbox" name="toping" value="mozzarellacheese">
+        <label for="toppings">Mozzarella Cheese</label>
+        <br>
+        <input type="checkbox" name="toping" value="pepperoni">
+        <label for="toppings">Pepperoni</label>
+        <br>
+        <input type="checkbox" name="toping" value="mushrooms">
+        <label for="toppings">Mushrooms</label>
+        <br>
+        <input type="checkbox" name="toping" value="peppers">
+        <label for="toppings">Peppers</label>
+        <br>
+        <input type="checkbox" name="toping" value="anchovies">
+        <label for="toppings">Anchovies</label>
+        <br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Jumlah</legend>
+        <label for="agama">Berapa banyak pizza:</label>
+        <select name="manypizzas" id="manypizzas">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+    </fieldset>
+
+    <br>
+    <input type="submit" value="Bawakan aku pizza!" name="tombol">
+    <input type="reset" name="tombol">
+    </form>
+</body>
+</html>
