@@ -1,0 +1,16 @@
+body {
+    margin: 18vh 8vw;
+}
+
+img {
+    height: 10vw;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.atas {
+    height: 36.8vh;
+}

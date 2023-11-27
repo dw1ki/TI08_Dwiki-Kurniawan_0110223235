@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 8.4 (b)</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            background-color: pink;
+            float: left;
+            display: flex;
+            margin: 0px;
+            padding: 20px;
+            height: 93.8vh;
+            width: 10%;
+        }
+
+        .header,
+        .footer {
+            display: flex;
+            background-color: khaki;
+            margin: 0px;
+            padding: 30px;
+
+        }
+
+        .content {
+            display: flex;
+            height: 76vh;
+        }
+
+        .article {
+            background-color: white;
+            display: flex;
+            flex-grow: 3;
+            padding: 15px;
+        }
+
+        .aside {
+            background-color: cyan;
+            display: flex;
+            flex-grow: 1;
+            padding: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav">Nav</nav>
+        <header class="header">Header</header>
+        <div class="content">
+            <article class="article">Article</article>
+            <aside class="aside">Aside</aside>
+        </div>
+        <footer class="footer">Footer</footer>
+    </div>
+</body>
+
+</html>
