@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrasi Seminar</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#">NF Peduli</a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Registrasi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">#S001</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- container -->
+  <div class="container">
+
+    <nav>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="#">Registrasi Seminar</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="#">Workshop</a>
+        </li>
+        <!-- <li class="breadcrumb-item active">
+          <a href="index.html">Seminar Workshop</a>
+        </li> -->
+      </ol>
+    </nav>
+
+    <!-- form support -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- form -->
+    <form action="admin.html" method="post">
+      <div class="form-group row">
+        <label for="text" class="col-4 col-form-label">Nama Lengkap</label> 
+        <div class="col-8">
+          <input id="text" name="text" type="text" class="form-control">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="text" class="col-4 col-form-label">Tempat Lahir</label> 
+        <div class="col-8">
+          <input id="text" name="text" type="text" class="form-control">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="date" class="col-4 col-form-label">Tanggal Lahir</label> 
+        <div class="col-8">
+          <div class="input-group">
+            <input id="date" name="date" type="text" class="form-control"> 
+            <div class="input-group-append">
+              <div class="input-group-text">
+                <i class="fa fa-calendar"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="col-4">Gender</label> 
+        <div class="col-8">
+          <div class="custom-control custom-radio custom-control-inline">
+            <input name="radio" id="radio_0" type="radio" class="custom-control-input" value="laki-laki"> 
+            <label for="radio_0" class="custom-control-label">Laki-Laki</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input name="radio" id="radio_1" type="radio" class="custom-control-input" value="perempuan"> 
+            <label for="radio_1" class="custom-control-label">Perempuan</label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="email" class="col-4 col-form-label">Email</label> 
+        <div class="col-8">
+          <input id="email" name="email" type="text" class="form-control">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="select" class="col-4 col-form-label">Status Peserta</label> 
+        <div class="col-8">
+          <select id="select" name="select" class="custom-select">
+            <option value="select">Select</option>
+            <option value="aktif">Aktif</option>
+            <option value="tidak aktif">Tidak Aktif</option>
+            <option value="alumni">Alumni</option>
+          </select>
+        </div>
+      </div> 
+      <div class="form-group row">
+        <div class="offset-4 col-8">
+          <button name="daftar" type="submit" class="btn btn-primary">Daftar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
